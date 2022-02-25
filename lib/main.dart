@@ -2,6 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
+import 'package:wheretosleepinnju/Pages/CourseTable/TermView.dart';
 import 'package:workmanager/workmanager.dart';
 import 'Utils/HomeWidgetUtil.dart';
 import 'generated/l10n.dart';
@@ -102,7 +103,7 @@ class _MyAppState extends State<MyApp> {
               theme: lightTheme,
               darkTheme: darkTheme,
               themeMode: model.themeMode ?? widget.themeMode,
-              home: const CourseTableView(),
+              home: const TermView(),
             );
           },
         ));
